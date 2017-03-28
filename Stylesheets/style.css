@@ -1,0 +1,31 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#supercontainer {
+    min-height: 100%;
+    position: relative;
+}
+#navbar{
+	background-color: white;
+	border: 0;
+}
+#active{
+
+}
+.Line{
+	position: relative;
+	left:50%;
+	bottom:25px;
+	width: 0;
+	border-top-color: #be090e;
+	border-top-width: 5px;
+	transition: width .5s, left .5s;
+}
+#navlist:hover > hr{
+	width: 100%;
+	left:0;
+}
